@@ -9,3 +9,11 @@ web:
     test:
       url: hh
       name: gogogogogo
+zuul:
+  routes:
+    api-a:
+      path: /auth/**
+      serviceId: auth-server
+    api-b:
+      path: /gatewayhh/**
+      url: forward:/gateway
