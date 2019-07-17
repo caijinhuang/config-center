@@ -1,0 +1,8 @@
+web:
+  menu:
+    baidu:
+      url: http://www.baidu.com
+      name: 百度
+    ali:
+      url: http://www.codecjh.top
+      name: 自定义
